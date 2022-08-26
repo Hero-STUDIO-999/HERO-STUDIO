@@ -1,0 +1,434 @@
+body {
+font-family: poppins, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    border-radius: 10px;
+    backdrop-filter: blur(1em);
+    top: 0px;
+    left: 0;
+    background-color: rgba(166, 185, 255, 0.1);;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+  }
+
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .openbtn {
+transition-duration: 0.3s;
+height: 35px;
+background-color: rgba(255, 255, 255, 0.1);
+cursor:none;
+border-radius: 5px;
+border-style: solid;
+border: none;
+width: 45px;
+  }
+.openbtn:hover, .openbtn:focus{
+background-color: rgba(110, 110, 110, 0.1);
+transition-duration: 0.3s;
+  }
+  .one {
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 17px;
+    width: 220px;
+    margin-left: 7px;
+    height: 30px;
+    margin-top: 50px;
+    border: none;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    }
+    .two {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 220px;
+    font-size: 17px;
+    margin-left: 7px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    }
+    .three{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 220px;
+    font-size: 17px;
+    margin-left: 7px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 17px;
+    border: none;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    }
+    .four{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 220px;
+    margin-left: 7px;
+    margin-top: 10px;
+    font-size: 17px;
+    height: 30px;
+    border: none;
+    font-size: 17px;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    }
+    .five{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 220px;
+    margin-left: 7px;
+    font-size: 17px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    }
+    .six{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 220px;
+    margin-left: 7px;
+    font-size: 17px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    }
+    .seven{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 220px;
+    margin-left: 7px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 17px;
+    border: none;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    }
+    .img{
+    justify-self: center;
+    transition-duration: 0.3s;
+    }
+    .img:hover{
+    opacity: 0.7;
+    }
+    .one:hover, .one:focus{
+    background-color: rgba(0, 115, 255, 0.774);
+    color: white;
+    width: 232px;
+    }
+    .two:hover, .two:focus{
+    background-color: rgba(0, 115, 255, 0.774);
+    color: white;
+    width: 232px;
+    }
+    .three:hover, .three:focus{
+    background-color: rgba(0, 115, 255, 0.774);
+    color: white;
+    width: 232px;
+    }
+    .four:hover, .four:focus{
+    background-color: rgba(0, 115, 255, 0.774);
+    color: white;
+    width: 232px;
+    }
+    .five:hover, .five:focus{
+    background-color: rgba(0, 115, 255, 0.774);
+    color: white;
+    width: 232px;
+    }
+    .six:hover, .six:focus{
+    background-color: rgba(0, 115, 255, 0.774);
+    color: white;
+    width: 232px;
+    }
+    .seven:hover, .seven:focus{
+    background-color: rgba(0, 115, 255, 0.774);
+    color: white;
+    width: 232px;
+    }
+    .boxes {
+    margin-top: 30px;
+    margin-left: 22px;
+    backdrop-filter: blur(3em);
+    background-color: rgba(184, 184, 184, 0.1);
+    border: 2px solid var(--glass-white-color);
+    box-shadow: rgba(86, 86, 86, 0.037) 3px 3px 3px 3px, rgba(0, 0, 0, 0.15) 0px 0px 0px 1px;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+    height: 120px;
+    width: 200px;
+    }
+    .boxes:hover {
+    background-color: rgba(106, 106, 106, 0.1);
+    transition: 0.3s ease-out;
+    }
+    .pivot{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border-bottom-width: 3.5px;
+    transition: 0.3s;
+    border-left-style: solid;
+    border-top-color: #7d7d7d;
+    cursor: none;
+    border-left-color: #7d7d7d;
+    border-right-color: #7d7d7d;
+    border-top-style: solid;
+    border-bottom-color: rgba(0, 88, 188, 0.774);
+    }
+    .pivot:hover, .pivot:focus{
+    width: 430px;
+    background-color: #f7f7f7;
+    border-top-color: #7d7d7d;
+    border-left-color: #7d7d7d;
+    border-right-color: #7d7d7d;
+    }
+    .display{ 
+    margin-top: 30px; 
+    backdrop-filter: blur(3em); 
+    background-color: rgba(184, 184, 184, 0.1); 
+    border: 2px solid var(--glass-white-color); 
+    box-shadow: rgba(86, 86, 86, 0.037) 3px 3px 3px 3px, rgba(0, 0, 0, 0.15) 0px 0px 0px 1px; 
+    border-radius: 8px; 
+    justify-self: center;
+    justify-content: center;
+    transition-duration: 0.3s; 
+    height: 500px; 
+    margin-left: -1000px;
+    width: 400px;
+    }
+    .display:hover, .display:focus{
+    background-color: rgba(106, 106, 106, 0.1);
+    transition: 0.3s ease-out;
+    }
+    .dropbtn {
+    background-color: rgba(255, 255, 255, 0.871);
+    width: 220px;
+    height: 35px;
+    margin-top: 20px;
+    font-size: 17px;
+    border-width: 0.1px;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    border-color: #c4c4c4;
+    border-style: solid;
+    }
+    
+    .dropbtn:hover, .dropbtn:focus {
+      transition-duration: 0.3s;
+      background-color: rgba(169, 169, 169, 0.289);
+    }
+    
+    .dropdown:hover {
+    transition: 0.3s;
+    }
+    
+    .dropdown-content {
+      display: none;
+      border-radius: 10px;
+      position: absolute;
+      transition-duration: 0.3s;
+      backdrop-filter: blur(3em);
+      margin-top: -500px;
+      margin-left: 80.90px;
+      background-color: rgba(255, 255, 255, 0.941);
+      border: 2px solid var(--glass-white-color);
+      min-width: 160px;
+      font-size: 12px;
+      width: 230px;
+      overflow: auto;
+      height: 150.9;
+      transition-duration: 0.3s;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.145);
+      z-index: 1;
+    }
+    .dropdown-content:hover {
+      transition: 0.3s ease;
+    }
+    .dropdown-content a {
+      color: rgb(0, 0, 0);
+      padding: 12px 16px;
+      text-decoration: none;
+      transition-duration: 0.3s;
+      display: block;
+    }
+    
+    .dropdown a:hover {
+    background-color: rgba(169, 169, 169, 0.289);
+    transition: 0.3s ease;
+    transition-duration: 0.3s;
+    }
+    .this{
+    margin-left: -40px;
+    }
+    .show {display: block;
+    transition: 0.3s ease;
+    }
+    .first{
+    background-color: rgba(0, 115, 255, 0.774);
+    width: 150px;
+    color: white;
+    height: 100px;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 17px;
+    border-width: 0.1px;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    border-color: #c4c4c4;
+    border-style: solid;
+    }
+    .first:hover{
+    cursor: not-allowed;
+    }
+    .second{
+    background-color: rgba(255, 255, 255, 0.839);
+    width: 150px;
+    color: rgb(0, 0, 0);
+    height: 100px;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 17px;
+    border-width: 0.1px;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    border-color: #c4c4c4;
+    border-style: solid;
+    }
+    .second:hover, .second:focus{
+    background-color: rgba(255, 255, 255, 0.318);
+    cursor: progress;
+    }
+    .third{
+    background-color: rgba(255, 255, 255, 0.839);
+    width: 150px;
+    color: rgb(0, 0, 0);
+    height: 100px;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 17px;
+    border-width: 0.1px;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    border-color: #c4c4c4;
+    border-style: solid;
+    }
+    .third:hover, .third:focus{
+    background-color: rgba(255, 255, 255, 0.318);
+    cursor: progress;
+    }
+    .fourth{
+    background-color: rgba(255, 255, 255, 0.839);
+    width: 150px;
+    color: rgb(0, 0, 0);
+    height: 100px;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 17px;
+    border-width: 0.1px;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    border-color: #c4c4c4;
+    border-style: solid;
+    }
+    .fourth:hover, .fourth:focus{
+    background-color: rgba(255, 255, 255, 0.318);
+    cursor: progress;
+    }
+    .more{
+    background-color: rgba(255, 255, 255, 0.839);
+    width: 350px;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 15px;
+    border-width: 0.1px;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    border-color: #c4c4c4;
+    border-style: solid;
+    }
+    .more:hover, .fourth:focus{
+    background-color: rgba(244, 244, 244, 0.565);
+    cursor: alias
+    }
+    .person{ 
+    margin-top: -500px; 
+    backdrop-filter: blur(3em); 
+    background-color: rgba(184, 184, 184, 0); 
+    border: 2px solid var(--glass-white-color); 
+    box-shadow: rgba(86, 86, 86, 0.037) 3px 3px 3px 3px, rgba(0, 0, 0, 0.15) 0px 0px 0px 1px; 
+    border-radius: 8px; 
+    justify-self: center;
+    justify-content: center;
+    transition-duration: 0.3s;
+    height: 400px;
+    margin-left: 460px;
+    width: 1040px;
+    }
+    .person:hover, .person:focus{
+    background-color: rgba(106, 106, 106, 0.1);
+    transition: 0.3s ease-out;
+    }
+    .pen{
+    border-width: 4px;
+    transition-duration: 0.3s;
+    border-style: solid;
+    }
+    .pen:hover{
+    opacity: 0.8;
+    }
+    .click{
+    border-radius: 8px;
+    border-style: none;
+    width: 200px;
+    height: 130px;
+    }
+    .click:hover, .click:focus{
+    opacity: 0.8;
+    transition-duration: 0.3s;
+    border-width: 4px;
+    border-style: solid;
+    }
+    .boxes2 {
+        margin-top: 30px;
+        margin-left: 22px;
+        backdrop-filter: blur(3em);
+        background-color: rgba(184, 184, 184, 0.1);
+        border: 2px solid var(--glass-white-color);
+        box-shadow: rgba(86, 86, 86, 0.037) 3px 3px 3px 3px, rgba(0, 0, 0, 0.15) 0px 0px 0px 1px;
+        border-radius: 8px;
+        transition-duration: 0.3s;
+        height: 350px;
+        width: 1310px;
+        }
+        .boxes2:hover {
+        background-color: rgba(106, 106, 106, 0.1);
+        transition: 0.3s ease-out;
+        }
